@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container-flex {
+    display: flex;
+    background-color: #e0d8d5;
+    color: #e0d8d5;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.left-haut {
+    display: flex;
+}
+
+.left-milieu {
+    display: flex;
+}
+
+.left-bas {
+    display: flex;
+}
+
+#left {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#right {
+    width: 40%;
+    position: relative;
+}
+
+#right img {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    flex-wrap: wrap;
+    max-height: 100%;
+}
+
+.prenom {
+    background-color: #35bc7a;
+    width: 66.66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.profile {
+    background-color: #ff9e00;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.experience {
+    background-color: #1e8bc4;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.education {
+    background-color: #f15a49;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.blog {
+    background-color: #35bc7a;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.social-menu {
+    background-color: #f86925;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.contact {
+    background-color: #1e8bc4;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.portfolio {
+    background-color: #f86925;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+li{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1rem;
+    box-shadow: 2px 2px 3px black;
+    margin: 1rem;
+}
+
+a {
+    list-style-type: none;
+    text-decoration-line: none;
+    color: white;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #right {
+      display: none;
+    }
+}
+
+
+
+
